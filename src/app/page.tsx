@@ -7,29 +7,29 @@ const services = [
     name: "Classic Haircut",
     price: "$35",
     description: "Timeless style for the modern gentleman",
-    videoSrc: "/ScreenRecording.mp4",
-    image: "/services/classic-haircut.jpg"
+    videoSrc: "./ScreenRecording.mp4",
+    image: "./services/classic-haircut.jpg"
   },
   {
     name: "Beard Trim",
     price: "$25",
     description: "Precision grooming for your facial hair",
-    videoSrc: "/ScreenRecording.mp4",
-    image: "/services/beard-trim.jpg"
+    videoSrc: "./ScreenRecording.mp4",
+    image: "./services/beard-trim.jpg"
   },
   {
     name: "Hot Towel Shave",
     price: "$45",
     description: "Luxurious traditional shaving experience",
-    videoSrc: "/ScreenRecording.mp4",
-    image: "/services/hot-towel.jpg"
+    videoSrc: "./ScreenRecording.mp4",
+    image: "./services/hot-towel.jpg"
   },
   {
     name: "Haircut & Beard Trim",
     price: "$55",
     description: "Luxurious traditional shaving experience",
-    videoSrc: "/ScreenRecording.mp4",
-    image: "/image.png"
+    videoSrc: "./ScreenRecording.mp4",
+    image: "./image.png"
   }
 
 ];
@@ -59,7 +59,7 @@ export default function Home() {
       <header
         className="relative h-[600px] bg-cover bg-center"
         style={{
-          backgroundImage: 'url("/image.png")'
+          backgroundImage: 'url("./image.png")'
         }}
       >
         <div className="absolute inset-0 bg-black opacity-50"></div>

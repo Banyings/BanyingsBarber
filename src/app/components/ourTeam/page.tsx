@@ -22,7 +22,7 @@ const TEAM_MEMBERS: TeamMember[] = [
     name: 'Hyppolite B ',
     role: 'Master Barber',
     bio: 'John has 15+ years of experience in delivering classic and modern styles with unmatched precision.',
-    image: '/image.png',
+    image: './image.png',
     socials: {
       instagram: '#',
       facebook: '#',
@@ -34,7 +34,7 @@ const TEAM_MEMBERS: TeamMember[] = [
     name: 'Chebi B',
     role: 'Stylist & Grooming Expert',
     bio: "Jane specializes in beard grooming and stylish cuts tailored to each client's personality.",
-    image: '/image.png',
+    image: './image.png',
     socials: {
       instagram: '#',
       facebook: '#'
@@ -45,7 +45,7 @@ const TEAM_MEMBERS: TeamMember[] = [
     name: 'Michael Brown',
     role: 'Traditional Shave Specialist',
     bio: 'Michael is a master of traditional hot towel shaves, ensuring a luxurious experience.',
-    image: '/image.png',
+    image: './image.png',
     socials: {
       instagram: '#',
       twitter: '#'
@@ -56,7 +56,7 @@ const TEAM_MEMBERS: TeamMember[] = [
     name: 'Emily Davis',
     role: 'Junior Barber',
     bio: 'Emily is passionate about precision and style, bringing fresh ideas to the team.',
-    image: '/image.png',
+    image: './image.png',
     socials: {
       instagram: '#',
       facebook: '#',
