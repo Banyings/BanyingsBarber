@@ -11,7 +11,7 @@ const SERVICES = [
     price: 35,
     duration: 45,
     description: 'Timeless style for the modern gentleman.',
-    image: '/image.png',
+    image: './image.png',
     features: [
       'Consultation to understand your style preferences',
       'Precision cutting techniques',
@@ -28,7 +28,7 @@ const SERVICES = [
     price: 25,
     duration: 30,
     description: 'Precision grooming for your facial hair.',
-    image: '/image.png',
+    image: './image.png',
     features: [
       'Beard shape consultation',
       'Line-up and detailing',
@@ -45,7 +45,7 @@ const SERVICES = [
     price: 45,
     duration: 60,
     description: 'Luxurious traditional shaving experience.',
-    image: '/image.png',
+    image: './image.png',
     features: [
       'Pre-shave oil treatment',
       'Multiple hot towel applications',
@@ -62,7 +62,7 @@ const SERVICES = [
     price: 55,
     duration: 75,
     description: 'Complete grooming package.',
-    image: '/image.png',
+    image: './image.png',
     features: [
       'Full haircut service',
       'Beard shaping and trimming',

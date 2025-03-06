@@ -19,7 +19,7 @@ const Navbar = () => {
           {/* Logo Section */}
           <div className="flex items-center space-x-4">
             <Image 
-              src="/ourTeam.png" 
+              src="./banyings.png" 
               alt="BanyingsBarber Logo" 
               width={50} 
               height={50} 
@@ -45,9 +45,9 @@ const Navbar = () => {
           {/* Desktop Navigation */}
           <div className="hidden lg:flex space-x-8">
             <Link href="/" className="hover:text-amber-500 transition-colors">Home</Link>
-            <Link href="/fonts/components/services" className="hover:text-amber-500 transition-colors">Services</Link>
-            <Link href="/fonts/components/ourTeam" className="hover:text-amber-500 transition-colors">Our Team</Link>
-            <Link href="/fonts/components/contactMe" className="hover:text-amber-500 transition-colors">Contact-Us</Link>
+            <Link href="/components/services" className="hover:text-amber-500 transition-colors">Services</Link>
+            <Link href="/components/ourTeam" className="hover:text-amber-500 transition-colors">Our Team</Link>
+            <Link href="/components/contactMe" className="hover:text-amber-500 transition-colors">Contact-Us</Link>
           </div>
         </div>
 
