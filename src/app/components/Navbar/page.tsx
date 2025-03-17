@@ -19,7 +19,7 @@ const Navbar = () => {
           {/* Logo Section */}
           <div className="flex items-center space-x-4">
             <Image 
-              src="./banyings.png" 
+              src="../banyings.png" 
               alt="BanyingsBarber Logo" 
               width={50} 
               height={50} 
