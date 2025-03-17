@@ -8,7 +8,7 @@ const services = [
     price: "$35",
     description: "Timeless style for the modern gentleman",
     videoSrc: "./ScreenRecording.mp4",
-    image: "./services/classic-haircut.jpg"
+    image: "../services/classic-haircut.jpg"
   },
   {
     name: "Beard Trim",
@@ -59,7 +59,7 @@ export default function Home() {
       <header
         className="relative h-[600px] bg-cover bg-center"
         style={{
-          backgroundImage: 'url("./image.png")'
+          backgroundImage: 'url("../image.png")'
         }}
       >
         <div className="absolute inset-0 bg-black opacity-50"></div>
